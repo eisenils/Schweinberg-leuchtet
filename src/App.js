@@ -6,7 +6,9 @@ import { photos } from "./photos";
 function App() {
   return (
     <div className="App">
-      <h1>Schweinberg leuchtet</h1>
+      <h1 className="neon m-5">
+        Schweinberg <span style={{ color: "#e92efb" }}>leuchtet</span>
+      </h1>
       <Gallery photos={photos} />
       <div className="text-center">
         &copy; {new Date().getFullYear()} NE Design |{" "}

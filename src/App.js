@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Schweinberg leuchtet</h1>
       <Gallery photos={photos} />
-      <div>
+      <div className="text-center">
         &copy; {new Date().getFullYear()} NE Design |{" "}
         <a href="http://www.nils-eisenhauer.de/impressum">Impressum</a>
       </div>

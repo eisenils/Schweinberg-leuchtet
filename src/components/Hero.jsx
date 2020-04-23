@@ -28,12 +28,12 @@ function Hero() {
         <p>powered by Get Your Sound</p>
       </div>
       {/* </FullHeight> */}
-      <div className="d-none d-md-block">
+      {/* <div className="d-none d-md-block">
         <video autoPlay="autoplay" loop="loop" muted id="video">
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -14,24 +14,26 @@ function Hero() {
           <p>powered by Get Your Sound</p>
         </div>
       </FullHeight>
-      <FullHeight className=" d-none d-md-block parent">
+      {/* <FullHeight className=" d-none d-md-block parent"> */}
+      <div className="parent">
         <video autoPlay="autoplay" loop="loop" muted id="video">
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="hero-text">
-          <h1 className="neon m-5">
-            Schweinberg <span style={{ color: "#e92efb" }}>leuchtet</span>
-          </h1>
-          <p>powered by Get Your Sound</p>
-        </div>
-      </FullHeight>
-      {/* <div className="d-none d-md-block">
+      </div>
+      <div className="hero-text">
+        <h1 className="neon m-5">
+          Schweinberg <span style={{ color: "#e92efb" }}>leuchtet</span>
+        </h1>
+        <p>powered by Get Your Sound</p>
+      </div>
+      {/* </FullHeight> */}
+      <div className="d-none d-md-block">
         <video autoPlay="autoplay" loop="loop" muted id="video">
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div> */}
+      </div>
     </>
   );
 }

@@ -11,7 +11,7 @@ function Hero() {
           <h1 className="neon m-5">
             Schweinberg <span style={{ color: "#e92efb" }}>leuchtet</span>
           </h1>
-          <p>powered by Get Your Sound</p>
+          <h3>powered by Get Your Sound</h3>
         </div>
       </FullHeight>
       <FullHeight className=" d-none d-md-block">
@@ -23,15 +23,9 @@ function Hero() {
           <h1 className="neon m-5">
             Schweinberg <span style={{ color: "#e92efb" }}>leuchtet</span>
           </h1>
-          <p>powered by Get Your Sound</p>
+          <h3 className="subheader-text">powered by Get Your Sound</h3>
         </div>
       </FullHeight>
-      {/* <div className="d-none d-md-block">
-        <video autoPlay="autoplay" loop="loop" muted id="video">
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div> */}
     </>
   );
 }

@@ -11,8 +11,12 @@ function App() {
       <About />
       {/* <Gallery photos={photos} /> */}
       <div className="text-center">
-        &copy; {new Date().getFullYear()} NE Design |{" "}
-        <a href="http://www.nils-eisenhauer.de/impressum">Impressum</a>
+        <p>
+          &copy; {new Date().getFullYear()} NE Design |{" "}
+          <a href="http://www.nils-eisenhauer.de/impressum" className="text-decoration-none">
+            Impressum
+          </a>
+        </p>
       </div>
     </>
   );

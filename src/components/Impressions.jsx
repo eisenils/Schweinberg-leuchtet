@@ -3,15 +3,6 @@ import React from "react";
 import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
 import video from "../images/hero.mp4";
-import {
-  Player,
-  ControlBar,
-  BigPlayButton,
-  CurrentTimeDisplay,
-  TimeDivider,
-  LoadingSpinner,
-  VolumeMenuButton,
-} from "video-react";
 
 function Impressions() {
   return (
@@ -26,18 +17,11 @@ function Impressions() {
       <Gallery photos={photos} />
       <div className="container mt-3">
         <div className="row">
-          <div className="col-8 offset-2">
-            <Player poster="/assets/poster.png">
-              <source src={video} />
-              <LoadingSpinner />
-
-              <BigPlayButton position="center" />
-              <ControlBar>
-                <CurrentTimeDisplay order={4.1} />
-                <TimeDivider order={4.2} />
-                <VolumeMenuButton />
-              </ControlBar>
-            </Player>
+          <div className="col-lg-8 offset-lg-2">
+            <video width="100%" height="auto" controls>
+              <source src={video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>

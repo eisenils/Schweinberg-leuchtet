@@ -30,9 +30,9 @@ p {
 a {
     font-family: $text;
     font-size: 1.2rem;
-    color: #09d3ac;
+    color: $primary;
 
     &:hover {
-        color: #09d3ac;
+        color: $primary;
     }
 }

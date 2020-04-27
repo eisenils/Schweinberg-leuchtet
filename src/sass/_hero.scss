@@ -22,8 +22,9 @@
 #video {
   min-width: 100%;
   min-height: 100%;
+  position: absolute;
   object-fit: cover;
-
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -35,8 +36,8 @@
 
 
 .hero-mobile {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../hero.png");
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }

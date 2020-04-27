@@ -1,15 +1,14 @@
 import React from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
-// import Gallery from "react-photo-gallery";
-// import { photos } from "./photos";
+import Impressions from "./components/Impressions";
 
 function App() {
   return (
     <>
       <Hero />
       <About />
-      {/* <Gallery photos={photos} /> */}
+      <Impressions />
       <div className="text-center">
         <p>
           &copy; {new Date().getFullYear()} NE Design |{" "}

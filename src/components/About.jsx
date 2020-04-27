@@ -7,7 +7,7 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col mt-5">
-              <h2>Über die Aktion </h2>
+              <h2 className="text-center">Über die Aktion </h2>
               <p>
                 Schweinberg leuchtet ist eine Aktion, die von{" "}
                 <a href="http://get-your-sound.de/" className="text-decoration-none">

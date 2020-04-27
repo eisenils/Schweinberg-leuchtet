@@ -14,7 +14,8 @@
     "react-full-height": "^1.2.1",
     "react-images": "^1.1.2",
     "react-photo-gallery": "^8.0.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

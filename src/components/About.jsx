@@ -14,7 +14,9 @@ class About extends Component {
                   GetYourSound
                 </a>{" "}
                 ins Leben gerufen wurde. Am 17. April 2020 wurde zum ersten Mal die Burgruine sowie
-                die Wehranlage in Schweinberg in einer Lichtshow inszeniert.
+                die Wehranlage in Schweinberg in einer Lichtshow inszeniert. Nach nur zwei Shows ist
+                die Aktion sehr bekannt geworden und findet sehr positiven Anklang. Hier finden Sie
+                einige Bilder sowie ein Video der Lichtshow.
               </p>
             </div>
           </div>

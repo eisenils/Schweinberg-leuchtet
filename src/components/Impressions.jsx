@@ -2,7 +2,6 @@ import React from "react";
 
 import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
-import video from "../images/hero.mp4";
 
 function Impressions() {
   return (
@@ -18,10 +17,15 @@ function Impressions() {
       <div className="container mt-3">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
-            <video width="100%" height="auto" controls>
-              <source src={video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className="video-container">
+              <iframe
+                title="video"
+                src="https://www.youtube.com/embed/T4PCj9BKJTY"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
